@@ -1,7 +1,10 @@
 # TrueWorX (SolidWorks Add-in)
 ## TrueWorX — automation that just works
 
-This is a SolidWorks add-in
+This repo hosts **downloads (installer)**, **templates**, and **end-user docs** for the TrueWorX SolidWorks add-in.
+
+Source code:
+- https://github.com/FreezeAnts/TrueWorX.git
 
 ## What it does
 - **Create Drawing** (parts): writes custom properties, creates/overwrites a `.SLDDRW` using templates, adds standard views and a flat pattern sheet.
@@ -10,24 +13,24 @@ This is a SolidWorks add-in
 - **Print DWGs**: batch-converts `.SLDDRW` files in a chosen folder to `DWG\\*.DWG`.
 
 
-## Build
-- Visual Studio: open `TrueWorX.sln` and build `Release|x64`.
-- CLI: `dotnet build src\TrueWorXAddin\TrueWorXAddin.csproj -c Release`
-
-Notes:
-- The build automatically copies the add-in DLL to `Release\TrueWorX.dll` (used by the installer).
-
-## Install
-### Inno Setup (recommended)
-1) Run the installer **as Administrator**:
+## Download & Install
+1) Download the newest installer from `installer/` (highest version number):
    - `installer\TrueWorXSetup_<version>.exe`
+2) Run the installer **as Administrator**.
 3) Restart SolidWorks.
-4) In SolidWorks: `Tools → Add-Ins` and enable **TrueWorX**.
+4) In SolidWorks: `Tools → Add-Ins` → enable **TrueWorX**.
 
 To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 
-## UI behavior
-- **Assembly Process** runs the export work on a background STA thread and minimizes its window while running, so SolidWorks stays usable (no screen-locking modal dialog).
+## Updates
+- Install the new version by running the newer installer (same steps as install).
+- Settings are stored in `%APPDATA%\\TrueWorX\\settings.json` and typically survive updates.
 
+## Templates
+- `templates/` contains downloadable templates used by the add-in (example: `templates\\CutlistTemplate.xlsx`).
+- In SolidWorks, open the TrueWorX settings dialog and point the template paths at the files you want to use.
+
+## Notes
+- **Assembly Process** runs in the background so SolidWorks stays usable while processing.
 
 
