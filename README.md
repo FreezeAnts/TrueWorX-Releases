@@ -30,7 +30,11 @@ To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 - `templates/` contains downloadable templates used by the add-in (example: `templates\\CutlistTemplate.xlsx`).
 - In SolidWorks, open the TrueWorX settings dialog and point the template paths at the files you want to use.
 
+## Licensing
+- TrueWorX includes a **30-day trial** that starts automatically on first run (no key needed).
+- Paid licenses use a license key entered in the TrueWorX license dialog.
+- If SolidWorks cannot access the internet, ask for an **offline activation token** (used with the machine id shown in the license dialog).
+
 ## Notes
 - **Assembly Process** runs in the background so SolidWorks stays usable while processing.
-
 
