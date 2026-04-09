@@ -22,8 +22,8 @@ Latest release: v1.0.18 (2026-04-09)
 Download: https://www.freezeants.com/
 <!-- TWX_LATEST_END -->
 
-1) Download the newest installer from `installer/` (highest version number):
-   - `installer\TrueWorXSetup_<version>.exe`
+1) Download the installer from `installer/`:
+   - `installer\TrueWorXSetup_<version>.exe` (only the current version is kept here)
 2) Run the installer **as Administrator**.
 3) Restart SolidWorks.
 4) In SolidWorks: `Tools → Add-Ins` → enable **TrueWorX**.
@@ -45,5 +45,6 @@ To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 
 ## Notes
 - **Assembly Process** runs in the background so SolidWorks stays usable while processing.
+
 
 
