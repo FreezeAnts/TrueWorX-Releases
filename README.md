@@ -3,6 +3,9 @@
 
 This repo hosts **downloads (installer)**, **templates**, and **end-user docs** for the TrueWorX SolidWorks add-in.
 
+Website:
+- https://www.freezeants.com/
+
 Source code:
 - https://github.com/FreezeAnts/TrueWorX.git
 
@@ -14,6 +17,11 @@ Source code:
 
 
 ## Download & Install
+<!-- TWX_LATEST_START -->
+Latest release: v1.0.16 (2026-04-03)
+Download: https://www.freezeants.com/
+<!-- TWX_LATEST_END -->
+
 1) Download the newest installer from `installer/` (highest version number):
    - `installer\TrueWorXSetup_<version>.exe`
 2) Run the installer **as Administrator**.
@@ -37,4 +45,3 @@ To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 
 ## Notes
 - **Assembly Process** runs in the background so SolidWorks stays usable while processing.
-
