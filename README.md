@@ -32,6 +32,10 @@ Direct download (latest): https://github.com/FreezeAnts/TrueWorX-Releases/raw/ma
 
 To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 
+## How To’s
+- Install, licensing, templates, troubleshooting: `How To's\README.md`
+- Settings location + samples: `Settings\README.md`
+
 ## Updates
 - Install the new version by running the newer installer (same steps as install).
 - Settings are stored in `%APPDATA%\\TrueWorX\\settings.json` and typically survive updates.
