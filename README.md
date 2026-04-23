@@ -18,7 +18,7 @@ Source code:
 
 ## Download & Install
 <!-- TWX_LATEST_START -->
-Latest release: v1.0.19 (2026-04-10)
+Latest release: v1.0.33 (2026-04-23)
 Download: https://www.freezeants.com/
 Direct download (latest): https://github.com/FreezeAnts/TrueWorX-Releases/raw/main/installer/TrueWorXSetup_Latest.exe
 <!-- TWX_LATEST_END -->
@@ -33,7 +33,7 @@ Direct download (latest): https://github.com/FreezeAnts/TrueWorX-Releases/raw/ma
 To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 
 ## How To’s
-- Install, licensing, templates, troubleshooting: `How To's\README.md`
+- Install, licensing, templates, troubleshooting, and the install video: `How To's\README.md`
 - Settings location + samples: `Settings\README.md`
 
 ## Updates
@@ -51,6 +51,7 @@ To unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator.
 
 ## Notes
 - **Assembly Process** runs in the background so SolidWorks stays usable while processing.
+
 
 
 

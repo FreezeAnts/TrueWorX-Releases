@@ -7,6 +7,10 @@
 2) Restart SolidWorks.
 3) In SolidWorks: `Tools → Add-Ins` → enable **TrueWorX**.
 
+## Install Video
+
+- `Install Video.mp4` for a short visual walkthrough of the install flow.
+
 To uninstall/unregister: run `C:\TrueWorX\Release\unregister.bat` as Administrator (then uninstall from Apps & Features if needed).
 
 ## Configure templates
